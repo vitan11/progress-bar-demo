@@ -45,7 +45,7 @@ export class AppComponent implements OnInit {
   }
 
   getData(){
-  	let api_url = 'Admin/badges';
+  	let api_url = 'http://pb-api.herokuapp.com/bars';
   	this.api.getRequest(api_url, {}).then(
       (res) => {
       	console.log(res);
