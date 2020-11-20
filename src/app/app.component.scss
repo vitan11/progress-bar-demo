@@ -1,0 +1,28 @@
+.container{
+	padding:10px;
+}
+.progress {
+	text-align: center;
+	width: 100%;
+	margin: 15px auto;
+	line-height:13px;
+}
+.progress-value {
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+.danger-percentage{
+	background-color:red !important;
+}
+.classWithPad { 
+	margin:10px; padding:10px; 
+}
+.progress-bar{
+	-webkit-transition:600ms linear;
+	-moz-transition:600ms linear;
+	-o-transition:600ms linear;
+	-ms-transition:600ms linear;
+	transition:all .5s linear;	
+}
+
